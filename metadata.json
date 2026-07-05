@@ -1,0 +1,6 @@
+{
+  "name": "IPECS - Intelligent Personal Expense Categorization System",
+  "description": "High-fidelity UI/UX redesign showcase for the IPECS Streamlit application, complete with responsive layouts, glassmorphism, interactive charts, and a comprehensive design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
