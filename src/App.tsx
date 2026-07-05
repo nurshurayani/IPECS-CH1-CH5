@@ -49,10 +49,10 @@ export default function App() {
 
   // Theme Mode: "light" | "dark" | "system"
   const [themeMode, setThemeMode] = useState<"light" | "dark" | "system">(() => {
-    return (localStorage.getItem("ipecs_theme_mode") as "light" | "dark" | "system") || "dark";
+    return (localStorage.getItem("ipecs_theme_mode") as "light" | "dark" | "system") || "light";
   });
 
-  const [resolvedTheme, setResolvedTheme] = useState<"light" | "dark">("dark");
+  const [resolvedTheme, setResolvedTheme] = useState<"light" | "dark">("light");
 
   useEffect(() => {
     localStorage.setItem("ipecs_theme_mode", themeMode);
